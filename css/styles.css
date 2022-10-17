@@ -1,0 +1,204 @@
+/*******************************Body*******************************/
+
+body{
+  font-family: "Montserrat";
+}
+
+
+
+
+/*******************************navbar-section*******************************/
+
+.logo{
+  font-size: 1.5rem;
+  font-weight: bold;
+
+}
+.navbar{
+  font-size: 1.5rem;
+  padding-bottom: 5.5rem;
+}
+
+.nav-item{
+  padding: 0 18px 0 18px;
+
+}
+
+/*******************************Heading-section*******************************/
+
+#title{
+  background-color: yellow;
+}
+
+h1{
+
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+.button{
+  background-color: red;
+
+}
+
+
+.btn-dark{
+  margin-right: 10px;
+}
+
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+.img-5{
+  width: 50%;
+  right: 0;
+  top:100px;
+  position: absolute;
+}
+
+.paw-img{
+  margin-top: 60px;
+}
+
+
+/*******************************Features-section*******************************/
+#features{
+  padding: 7% 15%;
+  background-color: rgba(255, 255, 128, .5);
+  font-style: "Montserrat-Bold";
+}
+
+.row{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.space{
+  padding: 20px 0px;
+}
+
+h3{
+  font-family: "Ubuntu";
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.fa-sharp{
+  color: brown;
+}
+
+.icon:hover{
+  color: orange;
+}
+
+
+/*******************************testimonial-section*******************************/
+#testimonials{
+  padding: 7% 15% 0;
+  background-color: #ef8172;
+  color: hsl(180, 100%, 50%) ;
+  color: #fff;
+  text-align: center;
+}
+
+.type{
+  text-align: center;
+  margin-top: 10px;
+  padding: 3% 3%;
+}
+
+.goldenimg-1{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-top: 0px;
+}
+
+
+
+/*******************************Press-section*******************************/
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding: 30px;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px;
+}
+
+/*******************************pricing-section*******************************/
+#pricing{
+  padding: 100px;
+  text-align: center;
+  font-family: cursive;
+  background-color: rgba(255, 255, 128, .5);
+}
+
+.col-spacing{
+  padding: 5% 3%;
+  background-color: hsl(120, 100%, 20%);
+}
+
+.col-block{
+  background-color: #CBD18F;
+}
+
+.plan{
+  margin-bottom: 5%;
+}
+
+/******************************Call to Action-section******************************/
+
+#cta{
+  text-align: center;
+  padding: 5% 5%;
+  background-color: brown;
+  color: white;
+}
+
+.end-img{
+  margin-left: 60%;
+  width: 40%;
+}
+
+.end{
+  padding: 5% 5%;
+  font-weight: bolder;
+  font-style: italic;
+}
+/******************************brands-section******************************/
+
+#brands{
+  text-align: center;
+  top: 10%;
+  padding: 5% 5% 1%;
+}
+
+.brands-1{
+  padding: 1% 1%;
+
+}
+
+/******************************footer-section******************************/
+
+#footer{
+  text-align: center;
+  top: 10%;
+}
+
+/*******************************Media class-section*******************************/
+
+@media(max-width: 1040px){
+.img-5{
+  position: static;
+  width: 120%;
+  right: 30%;
+}
+}
